@@ -28,14 +28,14 @@ The config file should include the following:
 ```bash
 NickName chaincoin
 ORPort 9001
-AccountingMax 4000 GBytes
+AccountingMax 500 GBytes
 AccountingStart month 1 00:00
 DirPort 9030 
 ExitPolicy reject *:*
 ```
 
 Please change the Nickname.
-If you have a bandwidth limit from your vps provider please edit AccountingMax. In this example it is limited to 4000 GB per month. Please dont remove »ExitPolicy reject *:*«, unless you know what you are doing.
+If you have a bandwidth limit from your vps provider please edit AccountingMax. In this example it is limited to 500 GB per month. The 5$ offer from Vultr.com has a limit of 1000 GB. With 500GB for Tor you should be on the save side. Please dont remove »ExitPolicy reject \*:\*«, unless you know what you are doing.
 
 ## Enable and start the Tor relay
 
