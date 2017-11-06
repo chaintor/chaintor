@@ -7,7 +7,7 @@ As a community we like to support the Tor Project by running a view Tor relays. 
 
 ## Installing a Tor relay
 
-Debian:
+Debian / Ubuntu:
 
 ```bash 
 sudo apt-get install tor
