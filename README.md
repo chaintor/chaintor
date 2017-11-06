@@ -40,12 +40,12 @@ If you have a bandwidth limit from your vps provider please edit AccountingMax. 
 ## Enable and start the Tor relay
 
 ```bash
-sudo Systemctl enable tor.service
-sudo Systemctl start tor.service
+sudo systemctl enable tor.service
+sudo systemctl start tor.service
 ```
 
 This will enable the Tor relay for start at booting and start it.
-`sudo Systemctl status tor.service` should show the status »runnung«.
+`sudo systemctl status tor.service` should show the status »runnung«.
 
 In a delay of 1-2 h you should be able to search for your Tor relay on this web site:
 
